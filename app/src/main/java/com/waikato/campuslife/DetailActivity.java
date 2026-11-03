@@ -11,6 +11,7 @@ public class DetailActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        // The same index selects matching titles, descriptions, and image names.
         int index = getIntent().getIntExtra(MainActivity.EXTRA_TOPIC_INDEX, 0);
         String[] titles = getResources().getStringArray(R.array.string_array_titles);
         String[] content = getResources().getStringArray(R.array.string_array_content);

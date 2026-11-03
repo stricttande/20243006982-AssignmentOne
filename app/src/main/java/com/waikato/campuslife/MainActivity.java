@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
         openTopic(3, "Support");
     }
 
+    // Keep the button index aligned with the order of the topic arrays.
     private void openTopic(int index, String topic) {
         Toast.makeText(this, topic + " clicked", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, DetailActivity.class);
