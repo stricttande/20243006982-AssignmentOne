@@ -1,11 +1,13 @@
 package com.waikato.campuslife;
 
 import android.app.Activity;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailActivity extends Activity {
+    @SuppressLint("DiscouragedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
