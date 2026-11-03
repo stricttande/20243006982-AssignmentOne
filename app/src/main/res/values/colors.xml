@@ -1,8 +1,8 @@
 <resources>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="initial_accent">#009688</color>
-    <color name="initial_button">#777777</color>
+    <color name="green">#1B5E20</color>
+    <color name="light_green">#66BB6A</color>
     <color name="black_overlay">#66000000</color>
     <color name="black_overlay">#66000000</color>
 </resources>

@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/initial_button"
+        android:background="@drawable/button_selector"
         android:contentDescription="@string/clubs"
         android:onClick="openClubs"
         android:scaleType="fitCenter"
@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/initial_button"
+        android:background="@drawable/button_selector"
         android:gravity="center"
         android:text="@string/clubs"
         android:textColor="@color/white" />
